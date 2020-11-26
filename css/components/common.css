@@ -222,8 +222,143 @@ textarea {
     background-color: seagreen;
 }
 
+.search-form .form-1 {
+    padding-right: 60px;
+}
 
+.search-form {
+    position: relative;
+}
 
+.btn-search {
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    background-size: 20px 20px;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    top: 2px;
+    border-radius: 0 3px 3px 0;
+    width: 50px;
+    padding: 0;
+    cursor: pointer;
+    transition: color .3s linear;
+}
+
+.btn-search:hover {
+    color: green;
+}
+
+.aside .card+.card {
+    border-top: 2px solid #e0e9f0;
+    padding-top: 30px;
+    padding-bottom: 55px;
+    margin-top: 30px;
+}
+
+.content {
+    display: flex;
+}
+
+.article {
+    width: 65%;
+}
+
+.aside {
+    width: 35%;
+    padding-left: 60px;
+}
+
+.date {
+    color: #bdc6ca;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.link-2 {
+    color: #009688;
+    transition: color 0.5s ease;
+    font-weight: bold;
+}
+
+.link-2:hover {
+    color: #00aa9a;
+}
+
+.btn-outline {
+    border: solid 2px #009688;
+    background-color: #ffffff;
+    color: #009688;
+    padding: 15px 70px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background color .15s linear;
+    display: block;
+    width: 100%;
+}
+
+.btn-outline:hover {
+    color: #00b09f;
+    border: 2px solid #00b09f;
+}
+
+main {
+    padding-bottom: 146px;
+}
+
+.footer {
+    border-top: 2px solid #e0e9f0;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.social-networks a {
+    color: #546e7a;
+    text-decoration: none;
+    transition: color .15s linear;
+}
+
+.social-networks li {
+    margin: 0 10px;
+}
+
+.social-networks {
+    cursor: pointer;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dribble:hover {
+    color: green;
+}
+
+.instagram:hover {
+    color: violet;
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+.linkedin:hover {
+    color: black;
+}
 
 
 
