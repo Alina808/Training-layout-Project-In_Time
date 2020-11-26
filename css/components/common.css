@@ -1,0 +1,172 @@
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+    padding: 0 15px;
+}
+
+.img {
+    display: block;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.phone {
+    color: #282b2f;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.phone i {
+    font-size: 20px;
+    color: #465a64;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+.phone i:hover {
+    color: #009688;
+}
+
+.phone:hover {
+    color: #009688;
+}
+
+.logo {
+    background-color: #f5f8fb;
+    padding: 20px 0;
+} 
+
+.between {
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav {
+    border-top: 2px solid #e0e9f0;
+    border-bottom: 2px solid #e0e9f0;
+    margin-bottom: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #282b2f;
+    display: block;
+    font-weight: bold;
+    padding: 12px 0;
+    transition: color .15s linear;
+}
+
+.main-nav {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+.main-nav a:hover {
+    color: #009688;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Обертка для полей формы */
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+/* Поля формы */
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	border-color: green;
+	border-radius: 3px;
+	color: #000;
+}
+
+.form-control:focus {
+	outline: none;
+	border-color: #ff0;
+}
+
+/* Стили для кроссбраузерности placeholder полей */
+
+.form-control::-webkit-input-placeholder {
+	color: #f00;
+}
+
+.form-control::-moz-placeholder {
+	opacity: 1;
+	color: #f00;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #f00;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 15px;
+	border-radius: 4px;
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	line-height: 1.5;
+	outline: none;
+}
+
+.btn:hover {
+	background-color: #424242;
+}
