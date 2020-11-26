@@ -86,6 +86,34 @@
     color: #009688;
  }
 
+.breadcrumbs {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 85px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #282b2f;
+    transition: color .15s linear;
+}
+
+.breadcrumbs a:hover {
+    color: #0013e6;
+}
+
+.breadcrumbs li:last-child::after {
+    display: none;
+}
+
+.breadcrumbs li::after {
+    content: '>';
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
